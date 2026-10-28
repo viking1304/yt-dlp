@@ -390,7 +390,7 @@ jobs:
     if: inputs.macos && vars.UPDATE_TO_VERIFICATION
     permissions:
       contents: read
-    runs-on: macos-latest
+    runs-on: macos-26
     env:
       UPDATE_TO: yt-dlp/yt-dlp@2025.09.05
 
